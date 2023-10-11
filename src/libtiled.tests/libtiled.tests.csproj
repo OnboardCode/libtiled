@@ -1,0 +1,115 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+
+    <IsPackable>false</IsPackable>
+    <IsTestProject>true</IsTestProject>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="resources\csvmap\csvmap.tmx" />
+    <None Remove="resources\csvmap\cvsmap_tileset.png" />
+    <None Remove="resources\csvmap_embedded_image_collection\csvmap_embedded_image_collection.tmx" />
+    <None Remove="resources\csvmap_embedded_image_collection\csvmap_embedded_image_collection_1.png" />
+    <None Remove="resources\csvmap_embedded_image_collection\csvmap_embedded_image_collection_2.png" />
+    <None Remove="resources\desert\desert.tmx" />
+    <None Remove="resources\desert\desert.tsx" />
+    <None Remove="resources\desert\tmw_desert_spacing.png" />
+    <None Remove="resources\desert_missing_image\desert.tmx" />
+    <None Remove="resources\desert_missing_image\desert.tsx" />
+    <None Remove="resources\desert_missing_tileset\desert.tmx" />
+    <None Remove="resources\flipped\flipped.tmx" />
+    <None Remove="resources\hexagonal-mini\hexagonal-mini.tmx" />
+    <None Remove="resources\hexagonal-mini\hexmini.png" />
+    <None Remove="resources\isometric_grass_and_water\isometric_grass_and_water.png" />
+    <None Remove="resources\isometric_grass_and_water\isometric_grass_and_water.tmx" />
+    <None Remove="resources\isometric_grass_and_water\isometric_staggered_grass_and_water.tmx" />
+    <None Remove="resources\orthogonal-outside\buch-outdoor.png" />
+    <None Remove="resources\orthogonal-outside\orthogonal-outside.tmx" />
+    <None Remove="resources\perspective_walls\perspective_walls.png" />
+    <None Remove="resources\perspective_walls\perspective_walls.tmx" />
+    <None Remove="resources\perspective_walls\perspective_walls.tsx" />
+    <None Remove="resources\relative_paths\relative_paths.tmx" />
+    <None Remove="resources\sewers\sewers.tmx" />
+    <None Remove="resources\sewers\sewer_tileset.png" />
+    <None Remove="resources\sewer_automap\rules.txt" />
+    <None Remove="resources\sewer_automap\rules_sewers.png" />
+    <None Remove="resources\sewer_automap\rule_001.tmx" />
+    <None Remove="resources\sewer_automap\rule_002.tmx" />
+    <None Remove="resources\sewer_automap\rule_003.tmx" />
+    <None Remove="resources\sewer_automap\rule_004.tmx" />
+    <None Remove="resources\sewer_automap\rule_005.tmx" />
+    <None Remove="resources\sewer_automap\rule_006.tmx" />
+    <None Remove="resources\sewer_automap\rule_007.tmx" />
+    <None Remove="resources\sewer_automap\rule_008.tmx" />
+    <None Remove="resources\sewer_automap\rule_009.tmx" />
+    <None Remove="resources\sewer_automap\sewers.tmx" />
+    <None Remove="resources\sewer_tileset.png" />
+    <None Remove="resources\staggered.tmx" />
+    <None Remove="resources\test_hexagonal_tile\test_hexagonal_tile_60x60x30.png" />
+    <None Remove="resources\test_hexagonal_tile\test_hexagonal_tile_60x60x30.tmx" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="resources\csvmap\csvmap.tmx" />
+    <EmbeddedResource Include="resources\csvmap\cvsmap_tileset.png" />
+    <EmbeddedResource Include="resources\csvmap_embedded_image_collection\csvmap_embedded_image_collection.tmx" />
+    <EmbeddedResource Include="resources\csvmap_embedded_image_collection\csvmap_embedded_image_collection_1.png" />
+    <EmbeddedResource Include="resources\csvmap_embedded_image_collection\csvmap_embedded_image_collection_2.png" />
+    <EmbeddedResource Include="resources\desert\desert.tmx" />
+    <EmbeddedResource Include="resources\desert\desert.tsx" />
+    <EmbeddedResource Include="resources\desert\tmw_desert_spacing.png" />
+    <EmbeddedResource Include="resources\desert_missing_image\desert.tmx" />
+    <EmbeddedResource Include="resources\desert_missing_image\desert.tsx" />
+    <EmbeddedResource Include="resources\desert_missing_tileset\desert.tmx" />
+    <EmbeddedResource Include="resources\flipped\flipped.tmx" />
+    <EmbeddedResource Include="resources\hexagonal-mini\hexagonal-mini.tmx" />
+    <EmbeddedResource Include="resources\hexagonal-mini\hexmini.png" />
+    <EmbeddedResource Include="resources\isometric_grass_and_water\isometric_grass_and_water.png" />
+    <EmbeddedResource Include="resources\isometric_grass_and_water\isometric_grass_and_water.tmx" />
+    <EmbeddedResource Include="resources\isometric_grass_and_water\isometric_staggered_grass_and_water.tmx" />
+    <EmbeddedResource Include="resources\orthogonal-outside\buch-outdoor.png" />
+    <EmbeddedResource Include="resources\orthogonal-outside\orthogonal-outside.tmx" />
+    <EmbeddedResource Include="resources\perspective_walls\perspective_walls.png" />
+    <EmbeddedResource Include="resources\perspective_walls\perspective_walls.tmx" />
+    <EmbeddedResource Include="resources\perspective_walls\perspective_walls.tsx" />
+    <EmbeddedResource Include="resources\relative_paths\relative_paths.tmx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="resources\sewers\sewers.tmx" />
+    <EmbeddedResource Include="resources\sewers\sewer_tileset.png" />
+    <EmbeddedResource Include="resources\sewer_automap\rules.txt" />
+    <EmbeddedResource Include="resources\sewer_automap\rules_sewers.png" />
+    <EmbeddedResource Include="resources\sewer_automap\rule_001.tmx" />
+    <EmbeddedResource Include="resources\sewer_automap\rule_002.tmx" />
+    <EmbeddedResource Include="resources\sewer_automap\rule_003.tmx" />
+    <EmbeddedResource Include="resources\sewer_automap\rule_004.tmx" />
+    <EmbeddedResource Include="resources\sewer_automap\rule_005.tmx" />
+    <EmbeddedResource Include="resources\sewer_automap\rule_006.tmx" />
+    <EmbeddedResource Include="resources\sewer_automap\rule_007.tmx" />
+    <EmbeddedResource Include="resources\sewer_automap\rule_008.tmx" />
+    <EmbeddedResource Include="resources\sewer_automap\rule_009.tmx" />
+    <EmbeddedResource Include="resources\sewer_automap\sewers.tmx" />
+    <EmbeddedResource Include="resources\sewer_tileset.png" />
+    <EmbeddedResource Include="resources\staggered.tmx" />
+    <EmbeddedResource Include="resources\test_hexagonal_tile\test_hexagonal_tile_60x60x30.png" />
+    <EmbeddedResource Include="resources\test_hexagonal_tile\test_hexagonal_tile_60x60x30.tmx" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.5.0" />
+    <PackageReference Include="Moq" Version="4.20.69" />
+    <PackageReference Include="NUnit" Version="3.13.3" />
+    <PackageReference Include="NUnit3TestAdapter" Version="4.4.2" />
+    <PackageReference Include="NUnit.Analyzers" Version="3.6.1" />
+    <PackageReference Include="coverlet.collector" Version="3.2.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\libtiled\libtiled.csproj" />
+  </ItemGroup>
+
+</Project>

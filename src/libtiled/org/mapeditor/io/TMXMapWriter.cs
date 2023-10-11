@@ -230,7 +230,7 @@ namespace Org.Mapeditor.Io
             w.EndElement();
         }
 
-        private void WriteProperties(Properties props, XMLWriter w)
+        private void WriteProperties(Core.Properties props, XMLWriter w)
         {
             if (props != null && !props.IsEmpty())
             {
@@ -575,7 +575,7 @@ namespace Org.Mapeditor.Io
             {
                 for (int x = 0; x < l.GetWidth(); x++)
                 {
-                    Properties tip = tl.GetTileInstancePropertiesAt(x, y);
+                    Core.Properties tip = tl.GetTileInstancePropertiesAt(x, y);
                     if (tip != null && !tip.IsEmpty())
                     {
                         if (!tilePropertiesElementStarted)
